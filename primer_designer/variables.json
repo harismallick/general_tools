@@ -1,0 +1,11 @@
+{
+    "primerLengthLow": 16,
+    "primerLengthHigh": 30,
+    "gcPercentLow": 40,
+    "gcPercentHigh": 60,
+    "meltingTempLow": 45,
+    "meltingTempHigh": 65,
+    "homoPolymerLength": 6,
+    "hairpinPercentage": 60,
+    "primerDimerPercentage": 75
+}
