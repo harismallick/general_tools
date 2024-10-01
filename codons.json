@@ -1,0 +1,322 @@
+{
+    "ttt": {
+        "letter": "F",
+        "abbreviation": "Phe",
+        "amino_acid": "Phenyalanine"
+    },
+    "ttc": {
+        "letter": "F",
+        "abbreviation": "Phe",
+        "amino_acid": "Phenyalanine"
+    },
+    "tta": {
+        "letter": "L",
+        "abbreviation": "Leu",
+        "amino_acid": "Leucine"
+    },
+    "ttg": {
+        "letter": "L",
+        "abbreviation": "Leu",
+        "amino_acid": "Leucine"
+    },
+    "ctt": {
+        "letter": "L",
+        "abbreviation": "Leu",
+        "amino_acid": "Leucine"
+    },
+    "ctc": {
+        "letter": "L",
+        "abbreviation": "Leu",
+        "amino_acid": "Leucine"
+    },
+    "cta": {
+        "letter": "L",
+        "abbreviation": "Leu",
+        "amino_acid": "Leucine"
+    },
+    "ctg": {
+        "letter": "L",
+        "abbreviation": "Leu",
+        "amino_acid": "Leucine"
+    },
+    "att": {
+        "letter": "I",
+        "abbreviation": "Ile",
+        "amino_acid": "Isoleucine"
+    },
+    "atc": {
+        "letter": "I",
+        "abbreviation": "Ile",
+        "amino_acid": "Isoleucine"
+    },
+    "ata": {
+        "letter": "I",
+        "abbreviation": "Ile",
+        "amino_acid": "Isoleucine"
+    },
+    "atg": {
+        "letter": "M",
+        "abbreviation": "Met",
+        "amino_acid": "Methionine"
+    },
+    "gtt": {
+        "letter": "V",
+        "abbreviation": "Val",
+        "amino_acid": "Valine"
+    },
+    "gtc": {
+        "letter": "V",
+        "abbreviation": "Val",
+        "amino_acid": "Valine"
+    },
+    "gta": {
+        "letter": "V",
+        "abbreviation": "Val",
+        "amino_acid": "Valine"
+    },
+    "gtg": {
+        "letter": "V",
+        "abbreviation": "Val",
+        "amino_acid": "Valine"
+    },
+    "tct": {
+        "letter": "S",
+        "abbreviation": "Ser",
+        "amino_acid": "Serine"
+    },
+    "tcc": {
+        "letter": "S",
+        "abbreviation": "Ser",
+        "amino_acid": "Serine"
+    },
+    "tca": {
+        "letter": "S",
+        "abbreviation": "Ser",
+        "amino_acid": "Serine"
+    },
+    "tcg": {
+        "letter": "S",
+        "abbreviation": "Ser",
+        "amino_acid": "Serine"
+    },
+    "cct": {
+        "letter": "P",
+        "abbreviation": "Pro",
+        "amino_acid": "Proline"
+    },
+    "ccc": {
+        "letter": "P",
+        "abbreviation": "Pro",
+        "amino_acid": "Proline"
+    },
+    "cca": {
+        "letter": "P",
+        "abbreviation": "Pro",
+        "amino_acid": "Proline"
+    },
+    "ccg": {
+        "letter": "P",
+        "abbreviation": "Pro",
+        "amino_acid": "Proline"
+    },
+    "act": {
+        "letter": "T",
+        "abbreviation": "Thr",
+        "amino_acid": "Threonine"
+    },
+    "acc": {
+        "letter": "T",
+        "abbreviation": "Thr",
+        "amino_acid": "Threonine"
+    },
+    "aca": {
+        "letter": "T",
+        "abbreviation": "Thr",
+        "amino_acid": "Threonine"
+    },
+    "acg": {
+        "letter": "T",
+        "abbreviation": "Thr",
+        "amino_acid": "Threonine"
+    },
+    "gct": {
+        "letter": "A",
+        "abbreviation": "Ala",
+        "amino_acid": "Alanine"
+    },
+    "gcc": {
+        "letter": "A",
+        "abbreviation": "Ala",
+        "amino_acid": "Alanine"
+    },
+    "gca": {
+        "letter": "A",
+        "abbreviation": "Ala",
+        "amino_acid": "Alanine"
+    },
+    "gcg": {
+        "letter": "A",
+        "abbreviation": "Ala",
+        "amino_acid": "Alanine"
+    },
+    "tat": {
+        "letter": "Y",
+        "abbreviation": "Tyr",
+        "amino_acid": "Tyrosine"
+    },
+    "tac": {
+        "letter": "Y",
+        "abbreviation": "Tyr",
+        "amino_acid": "Tyrosine"
+    },
+    "taa": {
+        "letter": "*",
+        "abbreviation": "Sto",
+        "amino_acid": "Stop"
+    },
+    "tag": {
+        "letter": "*",
+        "abbreviation": "Sto",
+        "amino_acid": "Stop"
+    },
+    "cat": {
+        "letter": "H",
+        "abbreviation": "His",
+        "amino_acid": "Histidine"
+    },
+    "cac": {
+        "letter": "H",
+        "abbreviation": "His",
+        "amino_acid": "Histidine"
+    },
+    "caa": {
+        "letter": "Q",
+        "abbreviation": "Gln",
+        "amino_acid": "Glutamine"
+    },
+    "cag": {
+        "letter": "Q",
+        "abbreviation": "Gln",
+        "amino_acid": "Glutamine"
+    },
+    "aat": {
+        "letter": "N",
+        "abbreviation": "Asn",
+        "amino_acid": "Asparagine"
+    },
+    "aac": {
+        "letter": "N",
+        "abbreviation": "Asn",
+        "amino_acid": "Asparagine"
+    },
+    "aaa": {
+        "letter": "K",
+        "abbreviation": "Lys",
+        "amino_acid": "Lysine"
+    },
+    "aag": {
+        "letter": "K",
+        "abbreviation": "Lys",
+        "amino_acid": "Lysine"
+    },
+    "gat": {
+        "letter": "D",
+        "abbreviation": "Asp",
+        "amino_acid": "Aspartic acid"
+    },
+    "gac": {
+        "letter": "D",
+        "abbreviation": "Asp",
+        "amino_acid": "Aspartic acid"
+    },
+    "gaa": {
+        "letter": "E",
+        "abbreviation": "Glu",
+        "amino_acid": "Glutamic acid"
+    },
+    "gag": {
+        "letter": "E",
+        "abbreviation": "Glu",
+        "amino_acid": "Glutamic acid"
+    },
+    "tgt": {
+        "letter": "C",
+        "abbreviation": "Cys",
+        "amino_acid": "Cysteine"
+    },
+    "tgc": {
+        "letter": "C",
+        "abbreviation": "Cys",
+        "amino_acid": "Cysteine"
+    },
+    "tga": {
+        "letter": "*",
+        "abbreviation": "Sto",
+        "amino_acid": "Stop"
+    },
+    "tgg": {
+        "letter": "W",
+        "abbreviation": "Trp",
+        "amino_acid": "Tryptophan"
+    },
+    "cgt": {
+        "letter": "R",
+        "abbreviation": "Arg",
+        "amino_acid": "Arginine"
+    },
+    "cgc": {
+        "letter": "R",
+        "abbreviation": "Arg",
+        "amino_acid": "Arginine"
+    },
+    "cga": {
+        "letter": "R",
+        "abbreviation": "Arg",
+        "amino_acid": "Arginine"
+    },
+    "cgg": {
+        "letter": "R",
+        "abbreviation": "Arg",
+        "amino_acid": "Arginine"
+    },
+    "agt": {
+        "letter": "S",
+        "abbreviation": "Ser",
+        "amino_acid": "Serine"
+    },
+    "agc": {
+        "letter": "S",
+        "abbreviation": "Ser",
+        "amino_acid": "Serine"
+    },
+    "aga": {
+        "letter": "R",
+        "abbreviation": "Arg",
+        "amino_acid": "Arginine"
+    },
+    "agg": {
+        "letter": "R",
+        "abbreviation": "Arg",
+        "amino_acid": "Arginine"
+    },
+    "ggt": {
+        "letter": "G",
+        "abbreviation": "Gly",
+        "amino_acid": "Glycine"
+    },
+    "ggc": {
+        "letter": "G",
+        "abbreviation": "Gly",
+        "amino_acid": "Glycine"
+    },
+    "gga": {
+        "letter": "G",
+        "abbreviation": "Gly",
+        "amino_acid": "Glycine"
+    },
+    "ggg": {
+        "letter": "G",
+        "abbreviation": "Gly",
+        "amino_acid": "Glycine"
+    }
+}

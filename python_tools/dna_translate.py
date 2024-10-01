@@ -349,7 +349,7 @@ def reverse_complement(sequence: str) -> str:
 
     return sense_reverse_complement
 
-def translation_helper(sequence: str) -> dict[str, str]:
+def translation_helper(sequence: str) -> list[str]:
 
     frames: list[str] = []
     i: int = 0
@@ -372,19 +372,26 @@ def translation_helper(sequence: str) -> dict[str, str]:
     return frames
 
 def translate_dna(sequence: str) -> dict[str, str]:
-    f1 = translation_helper(sequence)
-    f2 = translation_helper(reverse_complement(sequence))
+    f1: list[str] = translation_helper(sequence)
+    f2: list[str] = translation_helper(reverse_complement(sequence))
     f1 = f1 + f2
     frames: dict[str, str] = {}
     for i, seq in enumerate(f1):
         frames[f"f{i+1}"] = seq
     return frames
 
+def write_json(object: dict) -> None:
+    with open("codons.json", 'w') as file:
+        json.dump(object, file, indent=4)
+    return
+
 def main() -> None:
-    temp: str = "ATCATCGATCGATCGTCTAGCTAGCTAGCTGCTAGCT"
+    # temp: str = "ATCATCGATCGATCGTCTAGCTAGCTAGCTGCTAGCT"
+    temp: str = "ctttccacattcccacaagcctcccctatgcacaaccaggggggttggttcagtgcaagg"
     translated: str = translate_dna(temp)
     print(len(temp))
     print(translated)
+    # write_json(codons)
     return
 
 if __name__ == '__main__':
