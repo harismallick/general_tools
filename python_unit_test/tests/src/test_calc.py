@@ -1,5 +1,15 @@
 import unittest
-import calc
+import sys
+import os
+
+# Get the absolute path to the project root
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+
+# Add the utils_folder to the Python path
+sys.path.append(os.path.join(project_root, "src"))
+
+# Now you can import from utils_folder
+from src import calc
 
 class TestCalc(unittest.TestCase):
     
