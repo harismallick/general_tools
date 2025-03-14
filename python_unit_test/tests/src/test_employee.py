@@ -1,15 +1,7 @@
 import unittest
+# import sys
 from unittest.mock import patch
-import sys
-import os
 
-# Get the absolute path to the project root
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-
-# Add the utils_folder to the Python path
-sys.path.append(os.path.join(project_root, "src"))
-
-# Now you can import from utils_folder
 from src.employee import Employee
 
 
@@ -38,7 +30,6 @@ class TestEmployee(unittest.TestCase):
         print('tearDown\n')
 
     def test_email(self):
-        print('test_email')
         self.assertEqual(self.emp_1.email, 'john.doe@company.com')
         self.assertEqual(self.emp_2.email, 'jane.doe@company.com')
 
@@ -47,9 +38,9 @@ class TestEmployee(unittest.TestCase):
 
         self.assertEqual(self.emp_1.email, 'jim.doe@company.com')
         self.assertEqual(self.emp_2.email, 'janette.doe@company.com')
+        print(self.test_email.__name__, ' passed')
 
     def test_fullname(self):
-        print('test_fullname')
         self.assertEqual(self.emp_1.fullname, 'John Doe')
         self.assertEqual(self.emp_2.fullname, 'Jane Doe')
 
@@ -58,17 +49,20 @@ class TestEmployee(unittest.TestCase):
 
         self.assertEqual(self.emp_1.fullname, 'Jim Doe')
         self.assertEqual(self.emp_2.fullname, 'Janette Doe')
+        print(self.test_fullname.__name__, ' passed')
 
     def test_apply_raise(self):
-        print('test_apply_raise')
         self.emp_1.apply_raise()
         self.emp_2.apply_raise()
 
         self.assertEqual(self.emp_1.pay, 52500)
         self.assertEqual(self.emp_2.pay, 63000)
+        print(self.test_apply_raise.__name__, ' passed')
 
     def test_monthly_schedule(self):
-        with patch('employee.requests.get') as mocked_get:
+        # print(sys.path)
+        # Need to pass the full path to the module as a string to patch:
+        with patch('src.employee.requests.get') as mocked_get:
             mocked_get.return_value.ok = True
             mocked_get.return_value.text = 'Success'
 
@@ -81,6 +75,7 @@ class TestEmployee(unittest.TestCase):
             schedule = self.emp_2.monthly_schedule('June')
             mocked_get.assert_called_with('http://company.com/Doe/June')
             self.assertEqual(schedule, 'Bad Response!')
+        print(self.test_monthly_schedule.__name__, ' passed')
 
 
 if __name__ == '__main__':
